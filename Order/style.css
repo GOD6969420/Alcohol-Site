@@ -1,0 +1,305 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.7)), url("../Images/Wallpaper/order.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.orderpage {
+    min-width: 800px;
+    margin: 90px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.538);
+    border: 2px solid #a96700;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color:white;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    color: white;
+}
+
+/* Style the order summary container */
+#order-summary {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 600px;
+    color:black;
+}
+
+/* Style the timer section */
+#timer {
+    text-align: center;
+    font-size: 24px;
+    color: #a96700;
+    margin-top: 20px;
+}
+
+/* Style the cash message */
+p {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    margin-top: 20px;
+}
+#prod{
+    color: black;
+}
+
+/* Center the cash message button */
+.button {
+    text-align: center;
+}
+
+button {
+    background-color: #a96700;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+
+/*Start Global*/
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header.h .navigation-bar a {
+    font-family: Cabin, sans-serif;
+}
+header.h .navigation-bar a:hover,
+header.h nav.active .navigation-bar a:hover {
+    color: #a96700;
+}
+header.h nav .navigation-bar .underline, header.h .text .button button:hover {
+    background-color: #a96700;
+}
+
+header.h .navigation-bar ul li, header.h .text {
+    text-align: center;
+}
+header.h nav, header.h .navigation-bar ul {
+    display: flex;
+}
+header.h nav .toggle, header.h nav .toggle span, header.h .navigation-bar, header.h .navigation-bar ul {
+    transition: .3s;
+}
+header.h, header.h nav .toggle span, header.h .navigation-bar a, header.h .text {
+    position: relative;
+}
+header.h nav .toggle, header.h .navigation-bar .underline {
+    position: absolute;
+}
+header.h nav, header.h .navigation-bar a:hover .underline, header.h .navigation-bar li.active .underline {
+    width: 100%;
+}
+header.h nav .toggle {
+    cursor: pointer;
+}
+header.h nav.active, header.h nav.active .toggle.active span, header.h nav .toggle span, header.h .navigation-bar .underline {
+    background-color: #000;
+}
+header.h .navigation-bar a, header.h .text span {
+    color: white;
+}
+header.h nav, header.h .navigation-bar.show, header.h .navigation-bar a:hover .underline, header.h .navigation-bar li.active .underline {
+    left: 0;
+}
+header.h .text {
+    display: inline-block;
+}
+
+header.h nav {
+    position: fixed;
+    top: 0;
+    padding: 36px 36px 20px;
+    z-index: 20;
+}
+header.h nav .toggle {
+    display: none;
+    top: 26px;
+    left: 20px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    z-index: 21;
+}
+header.h nav .toggle:focus {
+    outline: none;
+}
+header.h nav.active .toggle span {
+    background-color: #000;
+}
+header.h nav .toggle.active {
+    left: 32%;
+}
+header.h nav .toggle.active .first {
+    top: 16px;
+    transform: rotate(-45deg);
+}
+header.h nav .toggle.active .last {
+    top: 0;
+    transform: rotate(45deg);
+}
+header.h nav .toggle .hide {
+    transition: 0s;
+    visibility: hidden;
+}
+header.h nav .toggle span {
+    display: block;
+    width: 30px;
+    height: 2px;
+    border-radius: 40px;
+}
+header.h nav .toggle span:not(:last-of-type) {
+    margin-bottom: 6px;
+}
+header.h nav .logo {
+    flex-basis: 56%;
+    padding-left: 50px;
+}
+header.h .navigation-bar.show {
+    width: 40%;
+}
+header.h .navigation-bar.show a {
+    color: #ccc !important;
+}
+header.h .navigation-bar.show a:hover {
+    color: #fff !important;
+}
+header.h .navigation-bar ul li {
+    flex: 1;
+    padding: 0 10px;
+}
+header.h .navigation-bar a {
+    text-decoration: none;
+    transition: all .5s;
+    font-size: 16px;
+}
+header.h nav.active .navigation-bar a {
+    color: #000;
+}
+header.h .navigation-bar .underline {
+    height: 2px;
+    width: 0;
+    left: 50%;
+    bottom: -4px;
+    transition: all .3s;
+    display: block;
+}
+header.h .text {
+    top: 24%;
+}
+header.h .text h1 {
+    margin-bottom: 0;
+}
+
+header.h .text .arrow .left:after, header.h .text .arrow .right:after {
+    content: '';
+    border: 10px solid transparent;
+    border-left-color: #fff;
+    top: -8px;
+}
+
+header.h .text span {
+    font-family: "Source Code Pro", sans-serif;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+header.h .text .button button {
+    border: none;
+    padding: 9px 18px;
+    letter-spacing: 2.4px;
+    font-size: 12px;
+    font-family: source_sans_problack, sans-serif;
+    border-radius: 3px;
+}
+header.h .text .button button{
+    outline: none;
+}
+
+@media (max-width: 992px) {
+
+    header.h {
+        height: calc(100vh - 10px);
+    }
+    header.h nav .logo {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    header.h nav {
+        display: block;
+        text-align: center;
+        left: 0;
+        top: 0;
+        width: 100%;
+        padding-top: 25px;
+    }
+    header.h nav .toggle {
+        display: block;
+    }
+    header.h .navigation-bar {
+        position: fixed;
+        top: 0;
+        left: -174px;
+        height: 100%;
+        background-color: #262526;
+        overflow: hidden;
+        z-index: 20;
+        padding: 40px;
+    }
+    header.h .navigation-bar ul {
+        display: block;
+        padding-top: 40px;
+    }
+    header.h .navigation-bar ul li {
+        text-align: left;
+        padding: 14px 0;
+    }
+}
+
+@media (max-width: 576px) {
+
+    header.h {
+        padding: 0;
+    }
+    header.h nav .logo {
+        padding-left: 0;
+    }
+    header.h nav .toggle.active {
+        left: 36%;
+    }
+    header.h .navigation-bar.show {
+        padding: 20px;
+        width: 48%;
+    }
+}

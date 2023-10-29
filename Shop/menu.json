@@ -1,0 +1,62 @@
+{
+    "starters": [
+      { "type": "separator", "description": "APPETIZERS" },
+      { "type": "food", "name": "CROSTINI", "description": "with diced tomatoes, onions, garlic and basil", "price": "475" },
+      { "type": "food", "name": "NACHOS", "description": "with 2 dips of your choice, gratinated with cheese and sliced chicken", "price": "525" },
+      { "type": "separator", "description": "SALADS" },
+      { "type": "food", "name": "CHICKEN CHILI SALAD", "description": "mixed salad, fried sliced chicken marinated with honey and chili", "price": "550" },
+      { "type": "food", "name": "FENNEL-APPLE SALAD", "description": "with rocket, feta, cranberries and pumpkin seeds", "price": "425" },
+      { "type": "food", "name": "CAESAR`S SALAD", "description": "Lettuce with fried baconstrips, croûtons, Grana Padano, egg and Caesar Dressing", "price": "825" }
+    ],
+    "mains": [
+      { "type": "separator", "description": "PIZZA" },
+      { "type": "food", "name": "MARGHERITA", "description": "Tomato sauce, mozzarella, organic oregano", "price": "525" },
+      { "type": "food", "name": "PROSCIUTTO", "description": "Tomato sauce, mozzarella, ham, organic oregano", "price": "650" },
+      { "type": "food", "name": "SALAME", "description": "Tomato sauce, mozzarella, salami, organic oregano", "price": "625" },
+      { "type": "food", "name": "TONNO", "description": "Tomato sauce, mozzarella, tuna MSC, capers, organic oregano", "price": "575" },
+      { "type": "separator", "description": "MEAT & FISH" },
+      { "type": "food", "name": "SURF & TURF", "description": "Beef entrecôte with herb butter, vegetables and fries", "price": "1035" },
+      { "type": "food", "name": "RUMP STEAK", "description": "with café de paris herbs butter, fries and vegetables", "price": "825" },
+      { "type": "food", "name": "FISH & CHIPS", "description": "Cod in beer batter with french fries and mashed peas", "price": "750" },
+      { "type": "separator", "description": "PASTA" },
+      { "type": "food", "name": "LINGUINE", "description": "on spinach sauce with cherry tomatoes, fennel, feta and pine nuts", "price": "950" },
+      { "type": "food", "name": "RAVIOLI", "description": "filled with truffle-ricotta and hazelnuts butter", "price": "625" }
+    ],
+    "desserts": [
+      { "type": "separator", "description": "SWEETS" },
+      { "type": "food", "name": "CHOCOLATE MOUSSE", "description": "with star anise, a pecan brownie and salty caramel sauce", "price": "600" },
+      { "type": "food", "name": "TIRAMISU", "description": "rolled rhubarb pistachio with vanilla strawberry amaretto sauce", "price": "525" },
+      { "type": "food", "name": "FRUIT SALAD", "description": "exotic fruits with tapioca pearls mango sorbet and homemade coconut liqueur", "price": "475" },
+      { "type": "food", "name": "RUSSIA DELIGHT", "description": "exotic russians with whipped cream on the top", "price": "15000" }
+    ],
+    "drinks": [
+      { "type": "separator", "description": "WATER & SODA" },
+      { "type": "drink", "name": "SPARKLING WATER", "description": "5dl", "price": "450" },
+      { "type": "drink", "name": "STILL WATER", "description": "5dl", "price": "475" },
+      { "type": "drink", "name": "SODA", "description": "3dl", "price": "575" },
+      { "type": "drink", "name": "TAP WATER", "description": "", "price": "FREE" },
+      { "type": "separator", "description": "BEER" },
+      { "type": "drink", "name": "BADENER GOLD", "description": "3dl", "price": "580" },
+      { "type": "drink", "name": "BADENER GOLD", "description": "5dl", "price": "700" },
+      { "type": "drink", "name": "QUÖLLFRISCH", "description": "5dl", "price": "750" },
+      { "type": "drink", "name": "BIER PAUL 02", "description": "3.3dl", "price": "600" },
+      { "type": "separator", "description": "RED WINE" },
+      { "type": "drink", "name": "MERLOT DEL TICINO", "description": "1dl", "price": "700" },
+      { "type": "drink", "name": "BOLGHERI ROSSO", "description": "1dl", "price": "850" },
+      { "type": "drink", "name": "NERO D’AVOLA IGT", "description": "1dl", "price": "750" },
+      { "type": "drink", "name": "MONTE CASTANHEIRO", "description": "1dl", "price": "800" },
+      { "type": "separator", "description": "WHITE WINE & CHAMPAGNE" },
+      { "type": "drink", "name": "ST. SAPHORIN7", "description": "1dl", "price": "700" },
+      { "type": "drink", "name": "BASILICATA BIANCO", "description": "1dl", "price": "750" },
+      { "type": "drink", "name": "TAITTINGER BRUT", "description": "7.5dl", "price": "9100" },
+      { "type": "separator", "description": "WHISKY" },
+      { "type": "drink", "name": "OBAN 14 YEARS", "description": "4cl", "price": "1350" },
+      { "type": "drink", "name": "LAGAVULIN 16 YEARS", "description": "4cl", "price": "1500" },
+      { "type": "drink", "name": "MACALLEN AMBER", "description": "4cl", "price": "1600" },
+      { "type": "separator", "description": "HOT DRINKS" },
+      { "type": "drink", "name": "ESPRESSO", "description": "", "price": "450" },
+      { "type": "drink", "name": "CAFE LATTE", "description": "", "price": "450" },
+      { "type": "drink", "name": "TEA", "description": "", "price": "500" }
+    ]
+  }
+  

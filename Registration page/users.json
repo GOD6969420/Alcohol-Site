@@ -1,0 +1,58 @@
+[
+    {
+        "id": "650c05207b8f4",
+        "name": "rakshit",
+        "email": "rakshitn4@gmail.com",
+        "password": "$2y$10$nr06v40465xPERkzjEI2Le2v4G1qrla1J6OJuLz4iMJJDtXLzWqdC",
+        "age": "20",
+        "phone": "8955609277"
+    },
+    {
+        "id": "650c0710a5346",
+        "name": "rakshit",
+        "email": "rakshitn8955@gmail.com",
+        "password": "$2y$10$KW11ZYFmZQQ7ynWooofaiexS1irB8scaJNFDesmkR5h90uF1wnJSG",
+        "age": "19",
+        "phone": "8955609277"
+    },
+    {
+        "id": "650c0cf3b87a8",
+        "name": "Naisha",
+        "email": "shettyn2003@gmail.com",
+        "password": "$2y$10$v0CNr9KNCzbUYgmHy29fbuO1tZgaZuAjOfIQTwHjblh.wyr3EUP92",
+        "age": "19",
+        "phone": "7506253599"
+    },
+    {
+        "id": "65283e5a7f4c7",
+        "name": "Rakshit Nandwana",
+        "email": "Rakshitn4@gmail.com",
+        "password": "$2y$10$wL18\/9467H2wg1lOLFgTyuJVpQwBWUKKKoREvWFEYKzUmCWo2n\/2u",
+        "age": "20",
+        "phone": "8955609277"
+    },
+    {
+        "id": "6534cb4536b92",
+        "name": "Naisha",
+        "email": "naisha@gmail.com",
+        "password": "$2y$10$55ZkNPXEK\/X6UFuNN3nWw.vuVx89R2lLFMqVUYHtXCyVstXAcp7Ra",
+        "age": "20",
+        "phone": "1234567890"
+    },
+    {
+        "id": "6537daed91627",
+        "name": "richa",
+        "email": "richa@gmail.com",
+        "password": "$2y$10$qQjYdBwh3ykHENe4yXoO7u7vCuCvenTSctLfLYhayYOvIs.KaSAqC",
+        "age": "20",
+        "phone": "8955609278"
+    },
+    {
+        "id": "6538e38768fe4",
+        "name": "Rakshit Nandwana",
+        "email": "Rakshitn8955@gmail.com",
+        "password": "$2y$10$ewHaealNZICMln7N9lusP.dJQ0mXOEd8JMiZ7ZFxfgBBpYdgNmTVW",
+        "age": "19",
+        "phone": "8955609277"
+    }
+]

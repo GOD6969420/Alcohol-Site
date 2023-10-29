@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header class="h">
+        <nav>
+            <div class="navigation-bar">
+                <ul>
+                    <li><a href="../Homepage/Homepage.html">Home<span class="underline"></span></a></li>
+                    <li><a href="../Shop/Menu.html">Shop<span class="underline"></span></a></li>
+                    <li class="active"><a href="../Cart/Cart.html">Cart<span class="underline"></span></a></li>
+                    <li><a href="../Order/Order.html">Order<span class="underline"></span></a></li>
+                    <li><a href="../Contact/Contact.html">Contact<span class="underline"></span></a></li>
+                    <li><a href="../Login Page/login.html">Logout<span class="underline"></span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="cart">
+        <h1>Shopping Cart</h1>
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+                <th>Action</th>
+            </tr>
+        </table>
+        <div class="total-cost-section">
+            <div>
+                <p>Subtotal: <span id="subtotal">0.00</span></p>
+                <p>Shipping Cost: <span id="shipping-cost">0.00</span></p>
+                <p>Taxes (18%): <span id="taxes">0.00</span></p>
+                <p>Total Cost: <span id="total-cost">0.00</span></p>
+            </div>
+            <button id="place-order-button">Place Order</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

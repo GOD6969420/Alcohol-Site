@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="../Login Page/styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="login-container">
+        <form id="login-form" action="login.php" method="post">
+            <h2>LOGIN</h2>
+            <input type="text" placeholder="Email or Username" name="email" required>
+            <input type="password" placeholder="Password" name="password" required>
+            <div class="error-message"></div>
+            <button type="submit">Login Now</button><br><br>
+            <input type="checkbox" id="remember" name="remember">
+            <label for="remember">Remember Me</label><br>
+            <a href="..\Forgot Password\forgot-password.html">Forgot Password?</a>
+            <p>Don't have an account? <a href="..\Registration page\registration.html" style="color:rgb(117, 0, 0); font-size: 20px;">Register here</a></p>
+            <a href="..\Privacy policy\privacy-policy.html">Privacy Policy |</a> 
+            <a href="..\terms and conditions\terms-and-conditions.html">Terms and Conditions</a>
+        </form>
+    </div>
+</body>
+</html>
